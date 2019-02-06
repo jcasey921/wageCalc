@@ -1,8 +1,5 @@
 /* Justin L Casey
-PRG/218 - Online
 Week 5 - Datamax, Inc. Overtime Pay Program
-Brian Rague
-11/30/15
 Ver 1.0
 */
 #include <iostream>
@@ -40,7 +37,7 @@ int main()
 	EmployeeClass employee2;
 	EmployeeClass employee3;
 	/*
-	Here you will prompt for the first employee’s information.
+	Here you will prompt for the first employeeâ€™s information.
 	Prompt the employee name, hours worked, and the hourly wage.  For each piece of information, you will update the appropriate class member defined above.
 	Example of Prompts
 	Enter the employee name      =
@@ -54,7 +51,7 @@ int main()
 	cout << "Enter his or her hourly wage =";
 	cin >> employee1.wage;
 	/*
-	Here you will prompt for the second employee’s information.
+	Here you will prompt for the second employeeâ€™s information.
 	Prompt the employee name, hours worked, and the hourly wage.  For each piece of information, you will update the appropriate class member defined above.
 	Enter the employee name      =
 	Enter the hours worked       =
@@ -67,7 +64,7 @@ int main()
 	cout << "Enter his or her hourly wage =";
 	cin >> employee2.wage;
 	/*
-	Here you will prompt for the third employee’s information.
+	Here you will prompt for the third employeeâ€™s information.
 	Prompt the employee name, hours worked, and the hourly wage.  For each piece of information, you will update the appropriate class member defined above.
 	Enter the employee name      =
 	Enter the hours worked       =
@@ -112,7 +109,7 @@ void EmployeeClass::ImplementCalculations(string EmployeeName, double hours, dou
 		/*
 		This section is for the basic calculations for calculating overtime pay.
 		-   base pay = 40 hours times the hourly wage
-		-   overtime hours = hours worked – 40
+		-   overtime hours = hours worked â€“ 40
 		-   overtime extra pay over 40 = overtime hours * overtime pay
 		-   salary = overtime money over 40 hours + your base pay
 		*/
